@@ -1,3 +1,7 @@
+$sysinfo = ''
+$sysinfoheader = ''
+
+
 # config and output filnames
 $configFile = 'wmicutil.cfg'
 $outputFile = 'wmicutil.csv'
@@ -5,6 +9,7 @@ $outputFile = 'wmicutil.csv'
 # enable/disable coment by comenting/uncomenting those next two lines
 $sysinfo = ((read-host "Input Coment ") + ';')
 $sysinfoheader = 'Coment;'
+
 
 foreach ($line in Get-Content ($PSScriptRoot + '/' + $configFile)) {
   # If line is a coment or empty, skip
