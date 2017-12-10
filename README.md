@@ -3,12 +3,15 @@
 #### Easily get system info using the wmic util
 
 This utility will write system info to a csv file
-We needed to get hardware info for multiple computers, with this is only took seconds for each machine.
+
 
 #### Basic use guide
-Download all files. 
+Download all files.
+
 Config fields in `wmicutil.cfg`
+
 Double click `wmicutil.bat` to run program.
+
 View results in `wmicutil.csv`
 
 
